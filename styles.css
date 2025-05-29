@@ -1,0 +1,81 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a0d37;
+  color: #fff;
+  line-height: 1.6;
+}
+
+header {
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+header h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px 0;
+}
+
+#about-me {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+#about-me .content {
+  flex: 2;
+}
+
+#about-me .image {
+  flex: 1;
+}
+
+#about-me .image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 3px solid #6f29b9;
+}
+
+#education,
+#skills,
+#contact,
+#experience {
+  padding: 20px;
+}
+
+#contact ul li {
+  margin: 10px 0;
+}
+
+#contact i {
+  margin-right: 5px;
+}
+
+#poster {
+  text-align: center;
+}
+
+#poster .posters {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+#poster .poster {
+  width: 200px;
+  height: 200px;
+  background-color: #e0e0e0;
+  margin: 10px;
+}
