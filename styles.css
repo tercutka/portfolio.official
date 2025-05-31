@@ -1,81 +1,140 @@
 
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #1a0d37;
+  height: 4000px;
+  background-color:rgba(34, 1, 53, 1);
   color: #fff;
-  line-height: 1.6;
+  
 }
 
-header {
-  padding: 20px 0;
+.title {
+  font-family: Days;
   text-align: center;
+ 
 }
 
-header h1 {
-  font-size: 24px;
-  margin-bottom: 5px;
+.title h1:nth-child(1){
+  position: relative;
+  left: -500px;
+  font-size: 100px;
 }
 
-header h2 {
-  font-size: 48px;
-  font-weight: bold;
+.title h1:nth-child(2){
+  position: relative;
+   font-size: 160px;
+   top: -140px;
 }
 
-section {
-  padding: 20px 0;
-}
 
-#about-me {
+.about-me {
   display: flex;
-  gap: 20px;
-  align-items: center;
+  gap: 1000px;
+  flex-direction: row;
+  justify-content: center;
 }
 
-#about-me .content {
-  flex: 2;
+.about-me h2{
+  font-size: 100px;
+  font-family: Days;
+  width: 500px;
+  color: rgb(78, 4, 121);
 }
 
-#about-me .image {
-  flex: 1;
+.about-me p {
+  width: 750px;
+  font-size: 30px;
+  font-family: Days;
 }
 
-#about-me .image img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  object-fit: cover;
-  border: 3px solid #6f29b9;
+.about-me img{
+  width: 650px;
+  border-radius: 20px;
 }
 
-#education,
-#skills,
-#contact,
-#experience {
-  padding: 20px;
+.contentsection{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 500px;
+  font-family: Days;
+}
+.content1{
+  display: flex;
+  flex-direction: column;
+  gap: 250px;
 }
 
-#contact ul li {
-  margin: 10px 0;
+.content2{
+  display: flex;
+  flex-direction: column;
+  gap: 250px;
+  position: relative;
+  top: 200px;
 }
 
-#contact i {
-  margin-right: 5px;
+.content1 h2{
+  font-size: 55px;
+  color: rgb(78, 4, 121);
 }
 
-#poster {
+.content1 li{
+  font-size: 30px;
+}
+
+.content2 h2{
+  font-size: 55px;
+  color: rgb(78, 4, 121);
+}
+
+.content2 li{
+  font-size: 30px;
+}
+
+.poster {
   text-align: center;
+  position: relative;
+  top: 400px;
 }
 
-#poster .posters {
+.poster h2{
+  font-size: 55px;
+  font-family: Days;
+  color: rgb(78, 4, 121);
+}
+
+.poster .posters {
   display: flex;
   justify-content: space-around;
-  margin-top: 20px;
+ position: relative;
+ top: -300px;
 }
 
-#poster .poster {
-  width: 200px;
-  height: 200px;
+.poster .poster {
+  width: 600px;
+  height: 800px;
   background-color: #e0e0e0;
   margin: 10px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background:rgba(34, 1, 53, 1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(78, 4, 121);
+
+}
+
+
+@font-face {
+  font-family: Days;
+  src: url(/DaysOne-Regular.ttf);
 }
