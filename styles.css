@@ -1,7 +1,7 @@
 
 
 body {
-  height: 3000px;
+  height: 3150px;
   background-color:rgba(34, 1, 53, 1);
   color: #fff;
   
@@ -177,6 +177,45 @@ html{
 
 }
 
+.site-footer {
+  background-color: rgb(78, 4, 121);
+  color: #fff;
+  padding: 25px ;
+  font-family: Arial, sans-serif;
+  margin-top: 640px;
+
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-left h3 {
+  margin: 0 0 10px;
+}
+
+.footer-left p {
+  margin: 0;
+  font-size: 20px;
+  font-family: Days;
+}
+
+.footer-right a {
+  color: #ccc;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Days;
+}
+
+.footer-right a:hover {
+  color: #fff;
+}
 
 @font-face {
   font-family: Days;
